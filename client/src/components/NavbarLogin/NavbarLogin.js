@@ -51,12 +51,13 @@ export default function NavbarLogin() {
             <Nav.Link href="/explore">Explore</Nav.Link>
             <Nav.Link href="/features">Notes</Nav.Link>
             <Nav.Link href="/pricing">Courses</Nav.Link>
-            <Nav.Link href="/pricing">Pricing</Nav.Link>
+            <Nav.Link href="/pricing">Offers</Nav.Link>
+            <Nav.Link href="/pricing">Blogs</Nav.Link>
             <Nav.Link>
             <Form className="d-flex" onSubmit={e => { e.preventDefault(); }}>
                   <Form.Control
                     type="search"
-                    placeholder="Search User"
+                    placeholder="Search here"
                     className="me-2"
                     aria-label="Search"
                     id="message"

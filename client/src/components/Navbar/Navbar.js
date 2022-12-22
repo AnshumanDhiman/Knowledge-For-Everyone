@@ -11,8 +11,11 @@ export default function ThisNavbar() {
           <Nav className="me">
           {/* <Nav className="me-auto"> */}
             <Nav.Link href="/register">Home</Nav.Link>
-            <Nav.Link href="/features">Features</Nav.Link>
-            <Nav.Link href="/courses">Pricing</Nav.Link>
+            <Nav.Link href="/register">Login/Sign up</Nav.Link>
+            <Nav.Link href="/courses">Offers</Nav.Link>
+            <Nav.Link href="/features">Blog</Nav.Link>
+            <Nav.Link href="/courses">FAQ</Nav.Link>
+            <Nav.Link href="/courses">About</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

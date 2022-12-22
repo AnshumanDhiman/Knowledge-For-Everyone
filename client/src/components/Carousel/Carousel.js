@@ -16,28 +16,42 @@ function ThisCarousel() {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item> */}
-      <Carousel.Item interval={1000}>
-        <img
+
+      <Carousel.Item interval={2500}>
+        <img height="500px"
           className="d-block w-100"
           src="https://img-c.udemycdn.com/notices/web_banner/slide_2_image_udlite/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg"
-          alt="Second slide"
+          alt="first slide"
         />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img
+
+      <Carousel.Item interval={2500}>
+        <img height="500px"
           className="d-block w-100"
           src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/bf1bd00b-e65c-4d18-8b3a-0176cfbb3601.jpg"
-          alt="Third slide"
+          alt="second slide"
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item interval={2500}>
+        <img height="500px"
+          className="d-block w-100"
+          src="https://assets.entrepreneur.com/content/3x2/2000/20160628101609-Coding.jpeg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
