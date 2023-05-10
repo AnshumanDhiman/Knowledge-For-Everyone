@@ -16,6 +16,11 @@ import { AuthContext } from "./context/AuthContext";
 import Navbar from "./components/Navbar/Navbar";
 import Carousel from "./components/Carousel/Carousel";
 import Footer from "./components/Footer/Footer";
+import BlogPage from "./components/Blogs/Blogs";
+import Offers from "./components/Offers/Offers";
+import AboutUs from "./components/About/AboutUs";
+import FAQ from "./components/FAQs/FAQ";
+import Development from "./components/Development/Development";
 
 
 function App() {
@@ -44,6 +49,27 @@ function App() {
         <Route path="/notfound">
           <ProfileNotFound />
         </Route>
+
+        <Route path="/blogs">
+          <BlogPage />
+        </Route>
+
+        <Route path="/offers">
+          <Offers />
+        </Route>
+
+        <Route path="/about">
+          <AboutUs />
+        </Route>
+
+        <Route path="/faq">
+          <FAQ />
+        </Route>
+
+        <Route path="/development">
+          <Development />
+        </Route>
+
       </Switch>
     </Router>
   );
