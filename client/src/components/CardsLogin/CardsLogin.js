@@ -21,7 +21,7 @@ function CardsLogin() {
           </Card.Text>
           <Card.Text>
           <span style={{marginTop:'10px'}}>₹3,499</span>
-          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Buy Now</Button></a>
+          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Start Course</Button></a>
           </Card.Text>
           
         </Card.Body>
@@ -40,7 +40,7 @@ function CardsLogin() {
           </Card.Text>
           <Card.Text>
           <span style={{marginTop:'10px'}}>₹3,499</span>
-          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Buy Now</Button></a>
+          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Start Course</Button></a>
           </Card.Text>
           
         </Card.Body>
@@ -60,7 +60,7 @@ function CardsLogin() {
           </Card.Text>
           <Card.Text>
           <span style={{marginTop:'10px'}}>₹3,499</span>
-          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Buy Now</Button></a>
+          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Start Course</Button></a>
           </Card.Text>
           
         </Card.Body>
@@ -84,7 +84,7 @@ function CardsLogin() {
           </Card.Text>
           <Card.Text>
           <span style={{marginTop:'10px'}}>₹3,499</span>
-          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Buy Now</Button></a>
+          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Start Course</Button></a>
           </Card.Text>
           
         </Card.Body>
@@ -103,7 +103,7 @@ function CardsLogin() {
           </Card.Text>
           <Card.Text>
           <span style={{marginTop:'10px'}}>₹3,499</span>
-          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Buy Now</Button></a>
+          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Start Course</Button></a>
           </Card.Text>
           
         </Card.Body>
@@ -123,7 +123,7 @@ function CardsLogin() {
           </Card.Text>
           <Card.Text>
           <span style={{marginTop:'10px'}}>₹3,499</span>
-          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Buy Now</Button></a>
+          <a href="/home"><Button variant="primary" style={{float:'Right'}}>Start Course</Button></a>
           </Card.Text>
           
         </Card.Body>

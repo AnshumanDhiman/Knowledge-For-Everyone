@@ -49,10 +49,10 @@ export default function NavbarLogin() {
           <Nav className="me">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/explore">Explore</Nav.Link>
-            <Nav.Link href="/features">Notes</Nav.Link>
-            <Nav.Link href="/pricing">Courses</Nav.Link>
-            <Nav.Link href="/pricing">Offers</Nav.Link>
-            <Nav.Link href="/pricing">Blogs</Nav.Link>
+            <Nav.Link href="/notes">Notes</Nav.Link>
+            <Nav.Link href="/courses">Courses</Nav.Link>
+            <Nav.Link href="/offers">Offers</Nav.Link>
+            <Nav.Link href="/blogs">Blogs</Nav.Link>
             <Nav.Link>
             <Form className="d-flex" onSubmit={e => { e.preventDefault(); }}>
                   <Form.Control

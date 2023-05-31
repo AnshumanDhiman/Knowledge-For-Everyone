@@ -1,0 +1,180 @@
+.course-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.course-image-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.course-info {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.course-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.course-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.course-details div {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+}
+
+.course-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.course-details p,
+.course-details li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.course-price {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    font-size: 1.2rem;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.buy-button:hover {
+    background-color: #ff5722;
+}
+
+.user-reviews {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 60px;
+}
+
+.user-reviews h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.course-syllabus {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.course-syllabus h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-syllabus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course-syllabus li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.related-courses {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.related-courses h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.related-courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-courses li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.course-testimonials {
+    clear: both;
+    margin-top: 50px;
+}
+
+.course-testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 16px;
+    font-style: italic;
+}

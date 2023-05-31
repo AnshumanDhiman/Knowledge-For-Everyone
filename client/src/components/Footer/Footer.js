@@ -12,13 +12,13 @@ function ThisFooter() {
 				<p class="footer-links">
 					<a href="#" class="link-1">Home</a>
 					
-					<a href="#">Offers</a>
-				
-					<a href="#">Blog</a>
-				
-					<a href="#">FAQ</a>
-					
-					<a href="#">About</a>
+					<a href="/offers">Offers</a>
+
+					<a href="/blogs">Blog</a>
+
+					<a href="/faq">FAQ</a>
+
+					<a href="/about">About</a>
 					
 				</p>
 

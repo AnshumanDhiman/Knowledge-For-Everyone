@@ -1,0 +1,88 @@
+
+.video-container {
+ text-align: center;
+
+}
+
+.video-container iframe {
+  width: 1000px;
+  height: 500px;
+}
+
+
+.course-info-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.course-info-c h2 {
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+
+.course-info-c p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  text-align: center;
+  color: #666;
+}
+
+.next-button {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.next-button:hover {
+  background-color: #3e8e41;
+}
+
+.congratulations {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.congratulations h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #333;
+}
+
+.congratulations p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  color: #666;
+}
+
+.congratulations img {
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.progress-bar-container {
+  width: 50%;
+  margin-left: 350px;
+}
